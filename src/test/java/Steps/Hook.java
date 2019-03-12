@@ -21,6 +21,7 @@ public class Hook extends BaseUtil{
     public void InitializeTest() {
 
         System.out.println("Opening the browser : MOCK");
+        
 
         //Passing a dummy WebDriver instance step info
         base.StepInfo = "FirefoxDriver";
